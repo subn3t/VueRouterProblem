@@ -10,20 +10,32 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Visit /alpha in your browser
+
+Notice the blank page
+
+### Visit /bravo in your browser
+
+Notice the Bravo component renders with the text "Bravo"
+
+### Visit /charlie in your browser
+
+Notice the Charlie component renders with the text "Charlie"
+
+### In Alpha.vue, comment out this line:
+
 ```
-npm run build
+import service from '@/service'
 ```
 
-### Run your tests
-```
-npm run test
-```
+### Visit /alpha in your browser
 
-### Lints and fixes files
-```
-npm run lint
-```
+Notice the Alpha component renders with the text "Alpha"
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Visit /bravo in your browser
+
+Notice the blank page
+
+### Visit /charlie in your browser
+
+Notice the Charlie component renders with the text "Charlie"
