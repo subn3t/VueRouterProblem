@@ -1,4 +1,4 @@
-# test-project
+# Components fail to render based on imports and alphabetical order of filenames
 
 ## Project setup
 ```
