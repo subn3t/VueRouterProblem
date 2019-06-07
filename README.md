@@ -10,9 +10,11 @@ npm install
 npm run serve
 ```
 
+There are 3 files, Alpha.vue, Bravo.vue, and Charlie.vue. All 3 import a service which imports the router. Components fail to render based on the Alphabetical order of the filenames.
+
 ### Visit /alpha in your browser
 
-Notice the blank page
+Notice the blank page **(this component fails to render because of the import statement)**
 
 ### Visit /bravo in your browser
 
@@ -34,7 +36,7 @@ Notice the Alpha component renders with the text "Alpha"
 
 ### Visit /bravo in your browser
 
-Notice the blank page
+Notice the blank page **(now this component fails to render because of the import statement)**
 
 ### Visit /charlie in your browser
 
