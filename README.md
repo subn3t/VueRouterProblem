@@ -32,11 +32,11 @@ import service from '@/service'
 
 ### Visit /alpha in your browser
 
-Notice the Alpha component renders with the text "Alpha"
+Notice the Alpha component renders with the text "Alpha" **(this didn't work before)**
 
 ### Visit /bravo in your browser
 
-Notice the blank page **(now this component fails to render because of the import statement)**
+Notice the blank page **(now this component fails to render)**
 
 ### Visit /charlie in your browser
 
